@@ -1,0 +1,14 @@
+{
+  "name": "whipguard-demo-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Seeded-bug fixture app for WhipGuard demos",
+  "scripts": {
+    "serve": "npx serve -l 4173 .",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "serve": "^14.2.3"
+  }
+}

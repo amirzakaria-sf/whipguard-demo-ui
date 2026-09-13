@@ -1,0 +1,9 @@
+body { font-family: system-ui, sans-serif; background: #0f1115; color: #e6e6e6; }
+main { max-width: 420px; margin: 4rem auto; padding: 0 1rem; }
+h1 { font-size: 1.25rem; }
+#add-form { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+#new-item { flex: 1; padding: 0.5rem; border-radius: 4px; border: 1px solid #333; background: #1a1d24; color: #e6e6e6; }
+button { padding: 0.5rem 0.9rem; border-radius: 4px; border: none; background: #4a7dff; color: white; cursor: pointer; }
+#list { list-style: none; padding: 0; }
+#list li { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem; border-bottom: 1px solid #23262e; }
+#list button.delete { background: #d64545; }
