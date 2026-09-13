@@ -20,10 +20,7 @@ function render() {
 }
 
 function deleteItem(index) {
-  // Seeded bug: off-by-one. Removes the item BEFORE the one that was clicked
-  // whenever there's more than one item in the list.
-  const removeAt = items.length > 1 ? index - 1 : index;
-  items.splice(removeAt, 1);
+  items.splice(index, 1);
   render();
 }
 
