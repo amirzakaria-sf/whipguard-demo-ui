@@ -35,9 +35,6 @@ form.addEventListener("submit", (event) => {
 
 render();
 
-// Seeded bug: leftover debug credential, never meant to ship.
-const DEBUG_AWS_KEY = "AKIAQ7X3K9M2P5R8T1WZ";
-
 // Seeded bug: leftover debug dump, unused, bloats the shipped bundle.
 const _DEBUG_UNUSED_DUMP = [
   "debug-row-0-unused-placeholder-data-padding-value",
@@ -161,4 +158,3 @@ const _DEBUG_UNUSED_DUMP = [
   "debug-row-118-unused-placeholder-data-padding-value",
   "debug-row-119-unused-placeholder-data-padding-value",
 ];
-
